@@ -51,30 +51,30 @@ body{
     justify-content: space-evenly;
 }
 
-#container .content .main {
+#container .content #main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-#container .content .main .description{
+#container .content #main .description{
     width: 250px;
 }
 
-#container .content .main .description h3{
+#container .content #main .description h3{
     color: #4717F6;
 }
 
-#container .content .main .description p{
+#container .content #main .description p{
     color: #E7DFDD;
     margin-left: 1rem;
 }
 
-#container .content .main .skills h3{
+#container .content #main .skills h3{
     color: #4717F6;
 }
 
-#container .content .main .skills  li{
+#container .content #main .skills  li{
     color: #E7DFDD;
     margin-left: 2rem;
 }
@@ -88,7 +88,7 @@ body{
     
 }
 
-#container footer .footer{
+#container footer #footer{
     width: 95%;
     display: flex;
     align-items: center;
@@ -100,18 +100,18 @@ body{
     margin-bottom: 1rem;
 }
 
-#container footer  .footer .hard-skills{
+#container footer  #footer .hard-skills{
     display: flex;
     justify-content: space-evenly;
     width: 20%;
     margin-bottom: 1rem;
 }
 
-#container footer .footer .links a{
+#container footer #footer .links a{
     text-decoration: none;
     color: #A239CA;
 }
 
-#container footer .footer .links a:hover{
+#container footer #footer .links a:hover{
     color:#4717F6
 }
