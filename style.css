@@ -49,16 +49,18 @@ body{
     width: 100%;
     align-items: center;
     justify-content: space-evenly;
+    
 }
 
 #container .content #main {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    
 }
 
 #container .content #main .description{
-    width: 250px;
+    width: 580px;
+    margin-bottom: 1rem;
 }
 
 #container .content #main .description h3{
@@ -79,18 +81,22 @@ body{
     color: #E7DFDD;
     margin-left: 2rem;
 }
+hr{
+    width: 90%;
+    z-index: -2;
+}
 
 
 
 #container .content .img img{
-    border-radius: 10rem;
-    width: 350px;
-    height: 350px;
+    border-radius: 50%;
+    width: 320px;
+    height: 320px;
     
 }
 
 #container footer #footer{
-    width: 95%;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column; 
