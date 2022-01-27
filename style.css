@@ -68,6 +68,7 @@ body{
 #container .content #main .description p{
     color: #E7DFDD;
     margin-left: 1rem;
+    font-style: italic;
 }
 
 #container .content #main .skills h3{
